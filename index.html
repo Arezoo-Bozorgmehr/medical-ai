@@ -3,140 +3,551 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Independent Medical AI, Data Science and Research consulting for HealthTech, MedTech and research teams." />
+
+  <meta
+    name="description"
+    content="Arezoo Bozorgmehr — Medical AI, Data Science and Research."
+  />
+
   <title>Arezoo Bozorgmehr | Medical AI & Data Science</title>
+
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+    rel="stylesheet"
+  />
+
   <link rel="stylesheet" href="styles.css" />
 </head>
+
 <body>
-  <header class="nav-wrap">
-    <nav class="nav container">
-      <a class="brand" href="#top">AB<span>.</span></a>
-      <div class="nav-links">
+
+  <header class="site-header">
+    <div class="container nav">
+
+      <a href="#top" class="brand">
+        <div class="logo">AB</div>
+
+        <div class="brand-text">
+          <strong>Arezoo Bozorgmehr</strong>
+          <span>Medical AI · Data Science · Research</span>
+        </div>
+      </a>
+
+      <nav class="nav-links">
         <a href="#services">Services</a>
         <a href="#about">About</a>
-        <a href="#contact" class="nav-cta">Let's talk</a>
-      </div>
-    </nav>
+        <a href="#expertise">Expertise</a>
+        <a href="#contact">Contact</a>
+
+        <a href="#contact" class="nav-button">
+          Let's Talk
+        </a>
+      </nav>
+
+    </div>
   </header>
 
+
   <main id="top">
-    <section class="hero container">
-      <div class="eyebrow">MEDICAL AI · DATA SCIENCE · RESEARCH</div>
-      <h1>Turning medical AI into<br><span>measurable evidence.</span></h1>
-      <p class="hero-copy">
-        I help HealthTech, MedTech and research teams develop, evaluate and validate AI systems
-        with scientific rigor — from early prototypes to evidence-ready solutions.
-      </p>
-      <div class="hero-actions">
-        <a class="button primary" href="mailto:arezoo.bozorgmehr16@gmail.com">Discuss a project</a>
-        <a class="button secondary" href="#services">Explore services</a>
+
+    <!-- HERO -->
+
+    <section class="hero">
+      <div class="container hero-grid">
+
+        <div class="hero-content">
+
+          <div class="eyebrow">
+            MEDICAL AI · DATA SCIENCE · RESEARCH
+          </div>
+
+          <h1>
+            Turning Medical AI into
+            <span>Measurable Evidence.</span>
+          </h1>
+
+          <p class="hero-description">
+            I help HealthTech, MedTech and research teams develop,
+            evaluate and validate AI systems with scientific rigor —
+            from early prototypes to real-world impact.
+          </p>
+
+          <div class="hero-buttons">
+
+            <a href="#services" class="button primary">
+              Explore Services →
+            </a>
+
+            <a href="#contact" class="button outline">
+              Let's Talk
+            </a>
+
+          </div>
+
+        </div>
+
+
+        <div class="hero-visual">
+
+          <div class="portrait-card">
+            <img
+              src="arezoo.jpg"
+              alt="Arezoo Bozorgmehr"
+              class="portrait"
+            />
+          </div>
+
+          <div class="metric-card">
+
+            <div class="metric-title">
+              AI Evaluation
+            </div>
+
+            <div class="metric-score">
+              92%
+            </div>
+
+            <div class="metric-label">
+              Quality Framework
+            </div>
+
+            <div class="metric-list">
+
+              <div>
+                <span>✓</span>
+                Accuracy
+              </div>
+
+              <div>
+                <span>✓</span>
+                Robustness
+              </div>
+
+              <div>
+                <span>✓</span>
+                Safety
+              </div>
+
+              <div>
+                <span>✓</span>
+                Explainability
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+
       </div>
 
-      <div class="trust-row">
-        <span>HealthTech</span>
-        <span>MedTech</span>
-        <span>Digital Health</span>
-        <span>Research Teams</span>
+
+      <div class="container value-row">
+
+        <div class="value-item">
+          <div class="value-icon">01</div>
+
+          <div>
+            <strong>Scientific Rigor</strong>
+            <span>Evidence-based evaluation</span>
+          </div>
+        </div>
+
+
+        <div class="value-item">
+          <div class="value-icon">02</div>
+
+          <div>
+            <strong>Practical Impact</strong>
+            <span>Real-world relevance</span>
+          </div>
+        </div>
+
+
+        <div class="value-item">
+          <div class="value-icon">03</div>
+
+          <div>
+            <strong>Data & Privacy</strong>
+            <span>Responsible AI by design</span>
+          </div>
+        </div>
+
+
+        <div class="value-item">
+          <div class="value-icon">04</div>
+
+          <div>
+            <strong>Collaborative</strong>
+            <span>Working closely with teams</span>
+          </div>
+        </div>
+
       </div>
+
     </section>
 
-    <section id="services" class="section container">
-      <div class="section-heading">
-        <div class="eyebrow">WHAT I DO</div>
-        <h2>Specialized support for medical AI projects.</h2>
+
+    <!-- SERVICES -->
+
+    <section id="services" class="section services">
+
+      <div class="container">
+
+        <div class="section-intro center">
+
+          <div class="eyebrow">
+            WHAT I DO
+          </div>
+
+          <h2>
+            Specialized support for your
+            medical AI projects.
+          </h2>
+
+        </div>
+
+
+        <div class="service-grid">
+
+
+          <article class="service-card">
+
+            <div class="service-top">
+
+              <div class="service-number">
+                01
+              </div>
+
+              <div class="service-icon">
+                ✓
+              </div>
+
+            </div>
+
+            <h3>
+              AI Evaluation & Validation
+            </h3>
+
+            <p>
+              Independent evaluation of AI systems with a focus
+              on reliability, performance and scientific evidence.
+            </p>
+
+            <ul>
+              <li>Performance & error analysis</li>
+              <li>LLM evaluation</li>
+              <li>Hallucination testing</li>
+              <li>Human vs AI evaluation</li>
+              <li>Statistical validation</li>
+              <li>Evaluation study design</li>
+            </ul>
+
+          </article>
+
+
+          <article class="service-card">
+
+            <div class="service-top">
+
+              <div class="service-number">
+                02
+              </div>
+
+              <div class="service-icon">
+                &lt;/&gt;
+              </div>
+
+            </div>
+
+            <h3>
+              AI & Data Science Prototyping
+            </h3>
+
+            <p>
+              Rapid, evidence-oriented prototypes for healthcare
+              workflows and data-intensive problems.
+            </p>
+
+            <ul>
+              <li>LLM & NLP prototyping</li>
+              <li>RAG & document intelligence</li>
+              <li>Healthcare data pipelines</li>
+              <li>Proof-of-concept development</li>
+              <li>Technical feasibility assessment</li>
+            </ul>
+
+          </article>
+
+
+          <article class="service-card">
+
+            <div class="service-top">
+
+              <div class="service-number">
+                03
+              </div>
+
+              <div class="service-icon">
+                ∑
+              </div>
+
+            </div>
+
+            <h3>
+              Research & Evidence
+            </h3>
+
+            <p>
+              Methodological and data-science support for teams
+              that need scientifically defensible evidence.
+            </p>
+
+            <ul>
+              <li>Study & evaluation design</li>
+              <li>Data analysis</li>
+              <li>Reproducible workflows</li>
+              <li>Research automation</li>
+              <li>Scientific reporting</li>
+            </ul>
+
+          </article>
+
+        </div>
+
       </div>
 
-      <div class="cards">
-        <article class="card">
-          <div class="card-number">01</div>
-          <h3>AI Evaluation & Validation</h3>
-          <p>
-            Scientific evaluation of AI and LLM-based healthcare systems beyond simple accuracy metrics.
-          </p>
-          <ul>
-            <li>Performance & error analysis</li>
-            <li>Hallucination & robustness testing</li>
-            <li>Human-vs-AI evaluation</li>
-            <li>Statistical validation</li>
-            <li>Evaluation study design</li>
-          </ul>
-        </article>
-
-        <article class="card">
-          <div class="card-number">02</div>
-          <h3>AI & Data Science Prototyping</h3>
-          <p>
-            Rapid, evidence-oriented prototypes for healthcare workflows and data-intensive problems.
-          </p>
-          <ul>
-            <li>LLM & NLP prototypes</li>
-            <li>RAG & document intelligence</li>
-            <li>Healthcare data pipelines</li>
-            <li>Proof-of-concept development</li>
-            <li>Technical feasibility assessment</li>
-          </ul>
-        </article>
-
-        <article class="card">
-          <div class="card-number">03</div>
-          <h3>Research & Evidence</h3>
-          <p>
-            Methodological and data-science support for teams that need defensible scientific evidence.
-          </p>
-          <ul>
-            <li>Study & evaluation design</li>
-            <li>Data analysis</li>
-            <li>Reproducible workflows</li>
-            <li>Research automation</li>
-            <li>Scientific reporting</li>
-          </ul>
-        </article>
-      </div>
     </section>
 
-    <section id="about" class="section container split">
-      <div>
-        <div class="eyebrow">ABOUT</div>
-        <h2>Computer science meets medical research.</h2>
-      </div>
-      <div class="about-copy">
-        <p>
-          I am a computer scientist, data scientist and researcher working at the intersection of
-          artificial intelligence, healthcare and scientific evaluation.
-        </p>
-        <p>
-          My focus is on building and evaluating AI systems in a way that is technically sound,
-          scientifically defensible and relevant to real-world healthcare.
-        </p>
-        <p class="note">
-          Independent consulting activities are separate from my academic work and institutional projects.
-        </p>
-      </div>
-    </section>
 
-    <section id="contact" class="contact-section">
-      <div class="container contact-box">
+    <!-- ABOUT -->
+
+    <section id="about" class="section about">
+
+      <div class="container about-grid">
+
         <div>
-          <div class="eyebrow light">LET'S TALK</div>
-          <h2>Working on an AI project in healthcare?</h2>
+
+          <div class="eyebrow">
+            ABOUT
+          </div>
+
+          <h2>
+            Computer science meets
+            medical research.
+          </h2>
+
+        </div>
+
+
+        <div class="about-text">
+
           <p>
-            If you are developing, evaluating or validating a medical AI solution, I would be happy to discuss your project.
+            I am a computer scientist, data scientist and researcher
+            working at the intersection of artificial intelligence,
+            healthcare and scientific evaluation.
           </p>
+
+          <p>
+            My work focuses on developing and evaluating AI systems
+            in a way that is technically sound, scientifically defensible
+            and relevant to real-world healthcare.
+          </p>
+
+          <p>
+            I am particularly interested in medical AI evaluation,
+            LLM-based healthcare systems, applied data science,
+            research methodology and responsible AI.
+          </p>
+
         </div>
-        <div class="contact-actions">
-          <a class="button light-button" href="mailto:YOUR_EMAIL@example.com">YOUR_EMAIL@example.com</a>
-          <a class="text-link" href="https://www.linkedin.com/in/dr-arezoo-bozorgmehr-phd-01a266201/" target="_blank" rel="noopener">LinkedIn →</a>
-        </div>
+
       </div>
+
     </section>
+
+
+    <!-- EXPERTISE -->
+
+    <section id="expertise" class="section expertise">
+
+      <div class="container">
+
+        <div class="expertise-grid">
+
+
+          <div class="expertise-item">
+
+            <div class="expertise-icon">
+              CS
+            </div>
+
+            <h4>
+              Academic Background
+            </h4>
+
+            <p>
+              Computer Science,
+              Data Science &
+              Applied Research
+            </p>
+
+          </div>
+
+
+          <div class="expertise-item">
+
+            <div class="expertise-icon">
+              AI
+            </div>
+
+            <h4>
+              AI & Data Expertise
+            </h4>
+
+            <p>
+              Machine Learning,
+              NLP, LLMs &
+              Healthcare AI
+            </p>
+
+          </div>
+
+
+          <div class="expertise-item">
+
+            <div class="expertise-icon">
+              RS
+            </div>
+
+            <h4>
+              Research Experience
+            </h4>
+
+            <p>
+              Study Design,
+              Evaluation &
+              Scientific Reporting
+            </p>
+
+          </div>
+
+
+          <div class="expertise-item">
+
+            <div class="expertise-icon">
+              +
+            </div>
+
+            <h4>
+              Interdisciplinary Work
+            </h4>
+
+            <p>
+              Clinical,
+              Technical &
+              Research Teams
+            </p>
+
+          </div>
+
+        </div>
+
+
+        <div class="mission">
+
+          <div class="quote">
+            “
+          </div>
+
+          <p>
+            My goal is simple:
+            to help bring trustworthy AI solutions into healthcare —
+            measurable, meaningful and scientifically defensible.
+          </p>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- CONTACT -->
+
+    <section id="contact" class="contact">
+
+      <div class="container contact-grid">
+
+        <div>
+
+          <div class="eyebrow light">
+            LET'S TALK
+          </div>
+
+          <h2>
+            Working on an AI project
+            in healthcare?
+          </h2>
+
+          <p>
+            If you are developing, evaluating or validating
+            a medical AI solution, I would be happy to
+            discuss your project.
+          </p>
+
+        </div>
+
+
+        <div class="contact-actions">
+
+          <a
+            href="mailto:arezoo.bozorgmehr16@gmail.com"
+            class="contact-email"
+          >
+            arezoo.bozorgmehr16@gmail.com
+          </a>
+
+          <a
+            href="YOUR_LINKEDIN_URL"
+            target="_blank"
+            class="linkedin-button"
+          >
+            Connect on LinkedIn →
+          </a>
+
+        </div>
+
+      </div>
+
+    </section>
+
   </main>
 
-  <footer class="footer container">
-    <span>© 2026 Arezoo Bozorgmehr</span>
-    <span>Medical AI · Data Science · Research</span>
+
+  <footer>
+
+    <div class="container footer">
+
+      <div class="footer-brand">
+        AB
+      </div>
+
+      <div>
+        © 2026 Arezoo Bozorgmehr
+      </div>
+
+      <div class="footer-links">
+        <a href="#">Impressum</a>
+        <a href="#">Privacy Policy</a>
+      </div>
+
+    </div>
+
   </footer>
+
 </body>
 </html>
