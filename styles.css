@@ -90,29 +90,29 @@ a {
 .brand {
   display: flex;
 
-  gap: 12px;
+  gap: 4px;
 
   align-items: center;
 }
 
 
 .logo {
-  width: 55px;
-  height: 55px;
-  flex: 0 0 55px;
+  width: 95px;
+  height: 65px;
+  flex: 0 0 95px;
   display: flex;
   align-items: center;
   justify-content: center;
-  overflow: hidden;
+  overflow: visible;
 }
 
 .logo img {
-  display: block;
-  width: 55px !important;
-  height: 55px !important;
-  max-width: 55px !important;
-  max-height: 55px !important;
+  width: 95px !important;
+  height: 65px !important;
+  max-width: 95px !important;
+  max-height: 65px !important;
   object-fit: contain;
+  display: block;
 }
 
 
