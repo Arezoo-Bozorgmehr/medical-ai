@@ -97,19 +97,22 @@ a {
 
 
 .logo {
+  width: 55px;
+  height: 55px;
+  flex: 0 0 55px;
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 64px;
-  height: 58px;
-  flex-shrink: 0;
+  overflow: hidden;
 }
 
 .logo img {
-  width: 100%;
-  height: 100%;
-  object-fit: contain;
   display: block;
+  width: 55px !important;
+  height: 55px !important;
+  max-width: 55px !important;
+  max-height: 55px !important;
+  object-fit: contain;
 }
 
 
