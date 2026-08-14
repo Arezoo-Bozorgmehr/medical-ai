@@ -908,11 +908,21 @@ footer {
 
 
 .footer-brand {
-  font-size: 28px;
+  width: 48px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
 
-  font-weight: 800;
-
-  color: var(--navy);
+.footer-brand img {
+  width: 48px !important;
+  height: 48px !important;
+  max-width: 48px !important;
+  max-height: 48px !important;
+  object-fit: contain;
+  display: block;
 }
 
 
